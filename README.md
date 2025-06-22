@@ -1,0 +1,32 @@
+# StackSoft Back-End Projects
+
+## 📝 Description  
+This repository contains my practice tasks during my internship at **StackSoft**.  
+Each task focuses on back-end development using **Node.js** and follows best practices for clean architecture, modular design, and RESTful API development.  
+All APIs are connected to a cloud-hosted **MongoDB Atlas** database for scalable and secure data management.
+
+## 🛠️ Technologies Used  
+- Node.js  
+- Express.js  
+- MongoDB Atlas  
+- Mongoose  
+- JavaScript  
+- Git & GitHub  
+- Postman (for API testing)  
+- JWT (for authentication and authorization)  
+- MVC Architecture  
+
+## 🚀 Goal  
+To build a solid foundation in real-world back-end development by working with cloud-based databases, RESTful APIs, authentication systems, and modular code structures.  
+These hands-on assignments are reviewed regularly with feedback from mentors to ensure best practices are followed.
+
+
+> ⚠️ **Note:**  
+> The `.env` file is **not included** by default for security reasons. You must create it manually in the root directory with variables like:
+PORT=8000
+MONGO_URL=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+
+📤 Postman Collection:
+A Postman collection file for testing the API will be uploaded after the project is deployed to a hosting service.
+
