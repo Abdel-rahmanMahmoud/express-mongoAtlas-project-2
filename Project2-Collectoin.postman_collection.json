@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "f2226bd1-af7c-488d-86d3-e513d4d8c966",
-		"name": "CRUD-Students-api",
+		"_postman_id": "2131bc49-0b37-48c0-8fd6-e99b6f6aa2bd",
+		"name": "Project2-Collectoin",
 		"description": "# 🚀 Get started here\n\nThis template guides you through CRUD operations (GET, POST, PUT, DELETE), variables, and tests.\n\n## 🔖 **How to use this template**\n\n#### **Step 1: Send requests**\n\nRESTful APIs allow you to perform CRUD operations using the POST, GET, PUT, and DELETE HTTP methods.\n\nThis collection contains each of these [request](https://learning.postman.com/docs/sending-requests/requests/) types. Open each request and click \"Send\" to see what happens.\n\n#### **Step 2: View responses**\n\nObserve the response tab for status code (200 OK), response time, and size.\n\n#### **Step 3: Send new Body data**\n\nUpdate or add new data in \"Body\" in the POST request. Typically, Body data is also used in PUT request.\n\n```\n{\n    \"name\": \"Add your name in the body\"\n}\n\n ```\n\n#### **Step 4: Update the variable**\n\nVariables enable you to store and reuse values in Postman. We have created a [variable](https://learning.postman.com/docs/sending-requests/variables/) called `base_url` with the sample request [https://postman-api-learner.glitch.me](https://postman-api-learner.glitch.me). Replace it with your API endpoint to customize this collection.\n\n#### **Step 5: Add tests in the \"Scripts\" tab**\n\nAdding tests to your requests can help you confirm that your API is working as expected. You can write test scripts in JavaScript and view the output in the \"Test Results\" tab.\n\n<img src=\"https://content.pstmn.io/fa30ea0a-373d-4545-a668-e7b283cca343/aW1hZ2UucG5n\" alt=\"\" height=\"1530\" width=\"2162\">\n\n## 💪 Pro tips\n\n- Use folders to group related requests and organize the collection.\n    \n- Add more [scripts](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/) to verify if the API works as expected and execute workflows.\n    \n\n## 💡Related templates\n\n[API testing basics](https://go.postman.co/redirect/workspace?type=personal&collectionTemplateId=e9a37a28-055b-49cd-8c7e-97494a21eb54&sourceTemplateId=ddb19591-3097-41cf-82af-c84273e56719)  \n[API documentation](https://go.postman.co/redirect/workspace?type=personal&collectionTemplateId=e9c28f47-1253-44af-a2f3-20dce4da1f18&sourceTemplateId=ddb19591-3097-41cf-82af-c84273e56719)  \n[Authorization methods](https://go.postman.co/redirect/workspace?type=personal&collectionTemplateId=31a9a6ed-4cdf-4ced-984c-d12c9aec1c27&sourceTemplateId=ddb19591-3097-41cf-82af-c84273e56719)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "37442619"
@@ -81,13 +81,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseUrl}}/students/682ce907c4309820a942e63f",
+							"raw": "{{baseUrl}}/students/6858037cd2906a28772ef229",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"students",
-								"682ce907c4309820a942e63f"
+								"6858037cd2906a28772ef229"
 							]
 						},
 						"description": "This is a GET request and it is used to \"get\" data from an endpoint. There is no request body for a GET request, but you can use query parameters to help specify the resource you want data on (e.g., in this request, we have `id=1`).\n\nA successful GET response will have a `200 OK` status, and should include some kind of response body - for example, HTML web content or JSON data."
@@ -123,7 +123,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"name\":\"AbdelRahman saeed\",\r\n\"grade\" : 96.3\r\n}",
+							"raw": "{\r\n\"name\":\"Abd mahmoud\",\r\n\"grade\" : 99\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -279,15 +279,15 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Authorization",
-								"value": "Bearer {{JWT}}",
+								"key": "",
+								"value": "",
 								"type": "text",
 								"disabled": true
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{ \r\n    \"firstName\":\"Abood\",\r\n    \"lastName\":\"mahmoud\",\r\n    \"email\":\"Abd@gmail.com\", \r\n    \"password\":1234 \r\n}",
+							"raw": "{ \r\n    \"firstName\":\"Hassan\",\r\n    \"lastName\":\"mahmoud\",\r\n    \"email\":\"Hassan122@gmail.com\", \r\n    \"password\":\"123456\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -333,7 +333,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{ \r\n    \"email\":\"Abd@gmail.com\", \r\n    \"password\":1234 \r\n}",
+							"raw": "{ \r\n    \"email\":\"Abdismahmoud@gmail.com\", \r\n    \"password\":\"123456\" \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -348,6 +348,59 @@
 							"path": [
 								"users",
 								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "undifiend routes",
+			"item": [
+				{
+					"name": "undifiend-routes",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n    \"firstName\":\"Abood\",\r\n    \"lastName\":\"mahmoud\",\r\n    \"email\":\"Abd@gmail.com\", \r\n    \"password\":1234 \r\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/undifiend-routes",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"undifiend-routes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "undifiend-routes Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/undifiend-routes",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"undifiend-routes"
 							]
 						}
 					},
@@ -378,8 +431,8 @@
 	],
 	"variable": [
 		{
-			"key": "base_url",
-			"value": "http://localhost:8000/api/students"
+			"key": "baseUrl",
+			"value": "https://express-mongoatlas-project-2.onrender.com/api"
 		}
 	]
 }
