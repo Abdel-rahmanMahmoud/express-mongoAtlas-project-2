@@ -30,3 +30,6 @@ JWT_SECRET=your_jwt_secret_key
 📤 Postman Collection:
 A Postman collection file for testing the API will be uploaded after the project is deployed to a hosting service.
 
+### live-Url (Production)
+```https
+https://express-mongoatlas-project-2.onrender.com
