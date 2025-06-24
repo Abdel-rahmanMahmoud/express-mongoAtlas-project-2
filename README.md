@@ -29,3 +29,13 @@ These hands-on assignments are reviewed regularly with feedback from mentors to 
 
 > ⚠️ **Note:**  
 > The `.env` file is **not included** by default for security reasons. You must create it manually in the root directory with variables like:
+PORT=8000
+MONGO_URL=**********
+JWT_SECRET=**********
+
+📤 Postman Collection:
+A Postman collection file for testing the API will be uploaded after the project is deployed to a hosting service.
+
+### live-Url (Production)
+```https
+https://express-mongoatlas-project-2.onrender.com
