@@ -1,4 +1,4 @@
-# StackSoft Back-End Projects
+#  Back-End Projects
 
 ## 📝 Description  
 This repository contains my practice tasks during my internship at **StackSoft**.  
