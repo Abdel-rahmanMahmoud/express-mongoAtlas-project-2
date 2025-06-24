@@ -34,7 +34,7 @@ MONGO_URL=**********
 JWT_SECRET=**********
 
 📤 Postman Collection:
-A Postman collection file for testing the API will be uploaded after the project is deployed to a hosting service.
+A Postman collection file for testing the API has been **uploaded** and is included in the repository.
 
 ### live-Url (Production)
 ```https
